@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playlist</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/musica.css">
+</head>
+<body>
+
+  <header>
+    <h1>suas músicas </h1>
+    <p></p>
+  </header>
+
+  <div class="container"> <!-- Container flexível para alinhar os players -->
+  <!-- Player 1 -->
+  <div class="player-container">
+    <div class="track-info">
+      <h3>Sorriso Ao Sono</h3>
+      <p>Phill Veras</p>
+    </div>
+    <div class="progress-bar">
+      <div class="progress" id="progressBar1"></div>
+    </div>
+    <div class="controls">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-backward"></i>
+      <i class="fas fa-play play-pause" id="playPauseBtn1"></i>
+      <i class="fas fa-forward"></i>
+      <i class="fas fa-random"></i>
+    </div>
+    <audio id="audioPlayer1" src="/assets/Phill Veras - Sorriso Ao Sono.mp3"></audio>
+  </div>
+
+  <!-- Player 2 -->
+  <div class="player-container">
+    <div class="track-info">
+      <h3>Por você</h3>
+      <p>Barão Vermelho</p>
+    </div>
+    <div class="progress-bar">
+      <div class="progress" id="progressBar2"></div>
+    </div>
+    <div class="controls">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-backward"></i>
+      <i class="fas fa-play play-pause" id="playPauseBtn2"></i>
+      <i class="fas fa-forward"></i>
+      <i class="fas fa-random"></i>
+    </div>
+    <audio id="audioPlayer2" src="/assets/Barão Vermelho - Por você.ogg"></audio>
+  </div>
+
+
+ <!-- Player 2 -->
+ <div class="player-container">
+  <div class="track-info">
+    <h3>Exagerado</h3>
+    <p>Cazuza</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar3"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn3"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer3" src="/assets/Cazuza - Exagerado.ogg"></audio>
+</div>
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>sonhos</h3>
+    <p>Caetano veloso</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar4"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn4"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer4" src="/assets/Caetano Veloso - Sonhos.ogg"></audio>
+</div>
+
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>Minha flor Meu Bebê</h3>
+    <p>Cazuza</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar5"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn5"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer5" src="/assets/Cazuza - Minha Flor Meu Bebê.ogg"></audio>
+</div>
+
+
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>Preciso dizer que te amo</h3>
+    <p>Bebel Gilberto</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar6"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn6"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer6" src="/assets/Bebel Gilberto - Preciso Dizer Que Te Amo (1).ogg"></audio>
+</div>
+
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>Fica em segredo</h3>
+    <p>Denise Mello</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar7"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn7"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer7" src="/assets/Denise Mello - Fica em Segredo (1).ogg"></audio>
+</div>
+
+
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>Ainda gosto</h3>
+    <p>Skank</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar8"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn8"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer8" src="/assets/Skank - Ainda Gosto Dela.ogg"></audio>
+</div> 
+
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>Garota nota 100</h3>
+    <p>Dj Marlboro</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar9"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn9"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer9" src="/assets/DJ Marlboro - Garota Nota 100 (1).ogg"></audio>
+</div>
+
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>Patience</h3>
+    <p>Guns N' Roses</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar10"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn10"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer10" src="/assets/Guns N' Roses - Patience.ogg"></audio>
+</div>
+
+
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>Tão bem</h3>
+    <p>Lulu Santos</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar11"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn11"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer11" src="/assets/Lulu Santos - Tão Bem (1).ogg"></audio>
+</div>
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>Minha felicidade</h3>
+    <p>Roberta Campos</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar12"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn12"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer12" src="/assets/Roberta Campos - Minha Felicidade (1).ogg"></audio>
+</div>
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>Você</h3>
+    <p>Tim Maia</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar13"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn13"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer13" src="/assets/Tim Maia - Você.ogg"></audio>
+</div>
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>Só sei dançar com você</h3>
+    <p>Zé Pi</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar14"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn14"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer14" src="/assets/Zé Pi - Só Sei Dançar Com Você.ogg"></audio>
+</div>
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>Insensatez</h3>
+    <p>Vinicius de Moraes</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar15"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn15"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer15" src="/assets/Vinícius de Moraes - Insensatez.ogg"></audio>
+</div>
+
+<div class="player-container">
+  <div class="track-info">
+    <h3>Amado</h3>
+    <p>Vanessa da mata</p>
+  </div>
+  <div class="progress-bar">
+    <div class="progress" id="progressBar16"></div>
+  </div>
+  <div class="controls">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-backward"></i>
+    <i class="fas fa-play play-pause" id="playPauseBtn16"></i>
+    <i class="fas fa-forward"></i>
+    <i class="fas fa-random"></i>
+  </div>
+  <audio id="audioPlayer16" src="/assets/Vanessa Da Mata - Amado.ogg"></audio>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="/música.js"></script>
+</body>
+</html>

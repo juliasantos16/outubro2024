@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Poemas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Todo dia vou atualizar aqui mas você tem que dar git</h1>
+  </header>
+
+  <button onclick="window.location.href='index.html'">Voltar à Página Inicial</button>
+
+<!-- Estilo do botão -->
+<style>
+button {
+  background-color: #800020;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4B001B;
+}
+</style>
+
+  <main>
+    <!-- Lista de poemas organizada em grid -->
+    <section class="lista-textos">
+      <div class="texto-item" onclick="abrirJanela('poema1')">
+        <h3>dia 1</h3>
+        <p>Breve</p>
+      </div>
+
+      <div class="texto-item" onclick="abrirJanela('poema2')">
+        <h3>dia 2 2</h3>
+        <p>Breve </p>
+      </div>
+
+      <div class="texto-item" onclick="abrirJanela('poema3')">
+        <h3>dia 3</h3>
+        <p>Breve...</p>
+      </div>
+    </section>
+
+    <!-- Pop-ups dos poemas -->
+    <div class="conteudo-popup" id="poema1">
+      <div class="conteudo-caixa">
+        <p>...</p>
+        <button class="fechar-btn" onclick="fecharJanela('poema1')">Fechar</button>
+      </div>
+    </div>
+
+    <div class="conteudo-popup" id="poema2">
+      <div class="conteudo-caixa">
+        <p>...</p>
+        <button class="fechar-btn" onclick="fecharJanela('poema2')">Fechar</button>
+      </div>
+    </div>
+
+    <div class="conteudo-popup" id="poema3">
+      <div class="conteudo-caixa">
+        <p>...</p>
+        <button class="fechar-btn" onclick="fecharJanela('poema3')">Fechar</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
